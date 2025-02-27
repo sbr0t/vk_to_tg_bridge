@@ -91,3 +91,5 @@ for event in longpoll.listen():
 
 			for file in files:
 				os.remove(DOWNLOAD_FOLDER + file)
+		else:
+			bot.send_message(TG_CHANEL_ID, message.text)
