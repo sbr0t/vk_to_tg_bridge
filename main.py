@@ -97,4 +97,7 @@ def main():
 		except Exception as e:
 			print(e)
 while True:
-	main()
+	try:
+		main()
+	except Exception as e:
+		print(e)
